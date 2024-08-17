@@ -1,11 +1,11 @@
 # Ex.No:1  Data Cleaning and Outlier Detection & Removal
-# Aim:
+## Aim:
 To read the given data and perform data cleaning and save the cleaned data to a file.
 
-# Explanation:
+## Explanation:
 Data cleaning is the process of preparing data for analysis by removing or modifying data that is incorrect ,incompleted , irrelevant , duplicated or improperly formatted. Data cleaning is not simply about erasing data ,but rather finding a way to maximize datasets accuracy without necessarily deleting the information.
 
-# Algorithm:
+## Algorithm:
 STEP 1: Read the given Data
 
 STEP 2: Get the information about the data
@@ -18,8 +18,8 @@ STEP 5: Remove outliers using IQR
 
 STEP 6: Use zscore of to remove outliers
 
-# Coding and Output:
-# Data cleaning:
+## Coding and Output:
+## Data cleaning:
 
 ```
 import pandas as pd
@@ -69,7 +69,7 @@ df.fillna({'GENDER':'MALE','NAME':'SRI','ADDRESS':'POONAMALEE','M1':98,'M2':87,'
 ```
 ![image](https://github.com/user-attachments/assets/49edde14-08a1-499f-9883-74c1239425b2)
 
-# IQR(Inter Quartile Range):
+## IQR(Inter Quartile Range):
 
 ```
 import pandas as pd
@@ -114,7 +114,7 @@ sns.boxplot(x='sepal_width',data=delid)
 ![image](https://github.com/user-attachments/assets/f009f213-357b-4b31-be4c-9c380aea4059)
 
 
-# Z-Score:
+## Z-Score:
 ```
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -166,5 +166,5 @@ df1
 ![image](https://github.com/user-attachments/assets/4248a786-a0c6-41b9-aaaf-01c31b9c22b2)
 
 
-# Result:
+## Result:
 Thus we have cleaned the data and removed the outliers by detection using IQR and Z-score method.
