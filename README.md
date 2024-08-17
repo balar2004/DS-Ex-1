@@ -23,7 +23,7 @@ STEP 6: Use zscore of to remove outliers
 
 ```
 import pandas as pd
-df=pd.read_csv("/content/SAMPLEIDS (1).csv")
+df=pd.read_csv("ex-1.1.csv")
 df
 ```
 ![image](https://github.com/user-attachments/assets/fc482989-09ea-4d80-9f69-f60b50975709)
@@ -73,7 +73,7 @@ df.fillna({'GENDER':'MALE','NAME':'SRI','ADDRESS':'POONAMALEE','M1':98,'M2':87,'
 
 ```
 import pandas as pd
-ir=pd.read_csv('/content/iris.csv')
+ir=pd.read_csv('ex-1.2.csv')
 ir
 ```
 ![image](https://github.com/user-attachments/assets/d0e22b10-a49f-4fc4-8690-fa0b2115c4a3)
@@ -120,7 +120,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 import scipy.stats as stats
-dataset=pd.read_csv("heights.csv")
+dataset=pd.read_csv("ex-1.3.csv")
 dataset
 ```
 ![image](https://github.com/user-attachments/assets/435661f1-5ed3-4c95-a2f5-68973c5c3a5c)
