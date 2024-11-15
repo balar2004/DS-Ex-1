@@ -1,4 +1,7 @@
 # Ex.No:1  Data Cleaning and Outlier Detection & Removal
+### Date :
+### Name : Bala R
+### Reg No : 212222220007
 ## Aim:
 To read the given data and perform data cleaning and save the cleaned data to a file.
 
